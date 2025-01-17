@@ -3,6 +3,7 @@ public class Main {
 
         Company company = Utils.initdata();
 
+        Utils.introduction();
 
 
 

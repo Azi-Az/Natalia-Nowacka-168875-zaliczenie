@@ -1,3 +1,4 @@
+
 import java.util.List;
 
 public class Utils {
@@ -17,6 +18,16 @@ public class Utils {
         employees.add(secondEmployee);
         employees.add(thirdEmployee);
 
+
         return company;
+
+    }
+
+    public static void introduction() {
+        Company company = Utils.initdata();
+        String title = "Panel administracyjny firmy " + company.getName();
+        System.out.println("-".repeat(title.length()));
+        System.out.println(title);
+        System.out.println("-".repeat(title.length()));
     }
 }
