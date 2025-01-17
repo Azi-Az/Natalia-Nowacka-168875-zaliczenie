@@ -63,7 +63,7 @@ public class Main {
                         break;
 
                     case 0:
-                        System.out.println("Program zostaje zamknięty.");
+                        System.out.println("Zamykanie programu...");
                         running = false;
                         break;
 
@@ -77,7 +77,7 @@ public class Main {
                         running = true;
                         Utils.menu();
                     } else {
-                        System.out.println("Program zostaje zamknięty.");
+                        System.out.println("Zamykanie programu...");
                         running = false;
                     }
                 } else {
